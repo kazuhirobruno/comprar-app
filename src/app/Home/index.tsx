@@ -12,9 +12,15 @@ export function Home() {
         source={require("@/assets/logo.png")}
         style={styles.logo}
       />
-      <Input placeholder="O que você precisa comprar?" />
-      <Button title="Entrar" />
+
+      <View style={styles.form}>
+        <Input placeholder="O que você precisa comprar?" />
+        <Button title="Entrar" />
+      </View>
  
+      <View style={styles.content}>
+
+      </View>
     </View>
   )
 }
